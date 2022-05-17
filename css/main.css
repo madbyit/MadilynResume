@@ -248,6 +248,34 @@ footer p {
     width: 500px;
 }
 
+
+/** PAGES **/
+
+#home,
+#aboutme,
+#techblog,
+#contact {
+  display: none;
+}
+
+#home:target {
+  display: block;
+}
+
+#aboutme:target {
+    display: block;
+}
+
+#techblog:target {
+  display: block;
+}
+
+#contact:target {
+    display: block;
+}
+
+    
+
 /** SMALL SCREEN ADJUSTMENTS **/
 
 @media all and (max-width: 600px) {
