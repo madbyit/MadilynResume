@@ -1,2 +1,3 @@
-# MadilynResume
-Resume part2
+# Madilyn Resume
+
+My online resume (#2)
