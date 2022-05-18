@@ -59,7 +59,7 @@ header {
     position: fixed;
     width: 100%;
     height: 30px;
-    background: #59C2DF;
+    background: #6a6a6b;
     padding: 15px;
 }
 
@@ -68,6 +68,7 @@ header a {
     font-size: 25px;
     font-weight: bold;
     margin-left: 10px;
+    z-index: 1;
 }
 
 /** FOOTER **/
@@ -80,7 +81,8 @@ footer {
     height: 30px;
     padding: 0px 10px 15px 20px;
     bottom: 0;
-    background: #59C2DF;
+    background: #6a6a6b;
+    z-index: 1;
 }
 
 footer p {
@@ -118,12 +120,13 @@ footer p {
 #navmenu {
     position: absolute;
     top: 75px;
-    width: 250px;
+    width: 150px;
+    height: 150px;
     max-width: 300px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 75px;
-    background: #59C2DF;
+    background: #6a6a6b;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
