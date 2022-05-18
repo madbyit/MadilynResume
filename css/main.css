@@ -61,6 +61,7 @@ header {
     height: 30px;
     background: #6a6a6b;
     padding: 15px;
+    z-index: 1;
 }
 
 header a {
@@ -68,7 +69,6 @@ header a {
     font-size: 25px;
     font-weight: bold;
     margin-left: 10px;
-    z-index: 1;
 }
 
 /** FOOTER **/
