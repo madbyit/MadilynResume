@@ -1,20 +1,20 @@
 /** Copy right */
 
-function getcurrentyear()
+function getCurrentYear()
 {
-   document.getElementById("year").innerHTML = new Date().getFullYear();
+  document.getElementById("year").innerHTML = new Date().getFullYear();
 }
 
 /** Cookies */
 
 function setCookies()
 {
-    var now = new Date();
-    var time = now.getTime();
-    var expireTime = time + 1000*36000;
-    now.setTime(expireTime);
-    document.cookie = 'cookie=ok;expires='+now.toUTCString()+';path=/';
-    cookieBanner();
+  var now = new Date();
+  var time = now.getTime();
+  var expireTime = time + 1000*36000;
+  now.setTime(expireTime);
+  document.cookie = 'cookie=ok;expires='+now.toUTCString()+';path=/';
+  cookieBanner();
 }
 
 function cookieBanner()
