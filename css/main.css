@@ -351,7 +351,7 @@ footer p {
 
 /** SMALL SCREEN ADJUSTMENTS **/
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 900px) {
     header {
         height: 20px;
     }
@@ -378,7 +378,7 @@ footer p {
     }
  }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 500px) {
  
     header a {
         font-size: 15px;
